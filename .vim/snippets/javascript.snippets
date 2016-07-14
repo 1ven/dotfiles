@@ -1,0 +1,56 @@
+snippet it
+	it('${1}', () => {
+		${0}
+	});
+snippet des
+	describe('${1}', () => {
+		${0}
+	});
+snippet req
+	const ${1} = require('${0}');
+snippet impas
+	import { assert } from 'chai';
+snippet as
+	assert.${1:equal}(${2}, ${0});
+snippet asde
+	assert.deepEqual(${1}, ${0});
+snippet af
+	() => {${0}}
+snippet req_
+	const _ = require('lodash');
+snippet reqbb
+	const Promise = require('bluebird');
+snippet .
+	<div className="${1}">
+		${0}
+	</div>
+snippet rc
+	import React, { Component, PropTypes } from 'react';
+
+	class ${1} extends Component {
+		constructor(props) {
+			super(props);
+		}
+
+		render() {
+			return (
+				${0}
+			);
+		}
+	};
+snippet f
+	function () {}
+snippet sw
+	switch (${1}) {
+		${0}
+	}
+snippet om
+	_.omit(${1}, ['${0}'])
+snippet ir
+	import React, { PropTypes } from 'react';
+snippet try
+	try {
+		${1}
+	} catch(err) {
+		${2}
+	}
