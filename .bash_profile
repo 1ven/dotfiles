@@ -13,7 +13,7 @@ alias gp="git push"
 alias gr="git reset HEAD~"
 
 function gc() {
-  git commit -m $1
+  git commit -m "$1"
 }
 
 function ga() {
