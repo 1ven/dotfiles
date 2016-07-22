@@ -14,6 +14,11 @@ snippet as
 	assert.${1:equal}(${2}, ${0});
 snippet asde
 	assert.deepEqual(${1}, ${0});
+snippet asd
+	assert.deepEqual(
+		${1}
+		${0}
+	);
 snippet af
 	() => {${0}}
 snippet req_
@@ -54,3 +59,5 @@ snippet try
 	} catch(err) {
 		${2}
 	}
+snippet ccm
+	const { component } = setup();
