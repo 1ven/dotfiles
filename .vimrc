@@ -23,7 +23,7 @@ Plugin 'jeetsukumaran/vim-buffergator'
 Plugin 'roaiven/vim-hybrid'
 Plugin 'othree/yajs.vim'
 Plugin 'tpope/vim-fugitive'
-Plugin 'HerringtonDarkholme/yats.vim'
+Plugin '1ven/yats.vim'
 
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
