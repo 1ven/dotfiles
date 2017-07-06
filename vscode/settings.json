@@ -1,0 +1,39 @@
+{
+    "editor.fontSize": 14,
+    "editor.fontFamily": "'PT Mono', 'Courier New', monospace",
+    "editor.tabSize": 2,
+    "editor.lineHeight": 23.1,
+    "terminal.integrated.lineHeight": 1.2,
+    "editor.rulers": [
+        80
+    ],
+    "window.zoomLevel": 0,
+    "typescript.check.tscVersion": false,
+    "workbench.iconTheme": "vs-seti",
+    "editor.renderWhitespace": "all",
+    "editor.wordWrap": "on",
+    "vim.disableAnnoyingNeovimMessage": true,
+    "javascript.validate.enable": false,
+    "workbench.colorTheme": "Oceanic Next (dimmed bg)",
+    "workbench.startupEditor": "newUntitledFile",
+    "workspace": {
+        "file:///Users/ivan/Documents/files/projects/os/chunks": {
+            "folders": [
+                "file:///Users/ivan/Documents/files/projects/os/frontend-library-boilerplate",
+                "file:///Users/ivan/Documents/files/projects/os/react-boilerplate",
+                "file:///Users/ivan/Documents/files/projects/os/swifty",
+                "file:///Users/ivan/Documents/files/projects/os/swifty-api",
+                "file:///Users/ivan/Documents/files/projects/os/swifty-devtools",
+                "file:///Users/ivan/Documents/files/projects/os/swifty-react"
+            ]
+        }
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "node_modules/": true
+    }
+}
